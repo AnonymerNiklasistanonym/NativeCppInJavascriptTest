@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Build directories
+build
+
+# Node modules directory
+node_modules
