@@ -10,6 +10,9 @@ const {
     greetHello
 } = require("./greetings")
 
+/**
+ * @type {import("../typings/index")}
+ */
 const nativeModule = require("../../build/Release/greet.node")
 
 
