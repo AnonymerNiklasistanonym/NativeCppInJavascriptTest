@@ -1,7 +1,7 @@
-const greetHello = () => {
+const helloUser = () => {
     return "Hello Mike"
 }
 
 module.exports = {
-    greetHello
+    helloUser
 }

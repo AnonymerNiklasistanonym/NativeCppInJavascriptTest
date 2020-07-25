@@ -7,7 +7,7 @@ const {
 } = require("./count")
 
 const {
-    greetHello
+    helloUser
 } = require("./greetings")
 
 /**
@@ -51,5 +51,16 @@ const compareExecutionTime = (name, func1, func2, args) => {
     }
 }
 
-compareExecutionTime("greetHello [js vs native]", greetHello, nativeModule.greetHello)
+compareExecutionTime("helloUser [js vs native]", helloUser, nativeModule.helloUser)
 compareExecutionTime("count [js vs native]", count, nativeModule.count, [1000000000])
+
+try {
+    nativeModule.count(undefined)
+} catch (err) {
+    console.log("Error was expected:", err)
+}
+try {
+    nativeModule.count(null)
+} catch (err) {
+    console.log("Error was expected:", err)
+}

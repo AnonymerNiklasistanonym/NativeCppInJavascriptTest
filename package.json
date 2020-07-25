@@ -5,7 +5,8 @@
   "main": "src/js/index.js",
   "scripts": {
     "start": "node .",
-    "install": "node-gyp rebuild"
+    "install": "node-gyp rebuild",
+    "copyTypings": "node src/js/copy_typings.js"
   },
   "author": "",
   "license": "ISC",

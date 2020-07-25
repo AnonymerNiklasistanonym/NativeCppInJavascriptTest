@@ -1,3 +1,8 @@
 {
-    "C_Cpp.default.includePath": ["./node_modules/node-addon-api","/usr/include/node/"]
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/node_modules/node-addon-api",
+        "/usr/include/node",
+        "${env:HOME}\\.node-gyp\\11.9.0\\include\\node",
+        "C:\\Users\\nikla\\.node-gyp\\11.9.0\\include\\node"
+    ],
 }

@@ -1,7 +1,7 @@
 /**
  * greetHello function description
  */
-declare function greetHello(): string;
+declare function helloUser(): string;
 
 /**
  * Count function description
@@ -10,6 +10,6 @@ declare function greetHello(): string;
 declare function count(num: number): number;
 
 export {
-    greetHello,
-    count
+    count,
+    helloUser
 };

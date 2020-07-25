@@ -6,6 +6,8 @@
       "cflags_cc!": ["-fno-exceptions"],
       "sources": [
         "./src/cpp/greeting.cpp",
+        "./src/cpp/count.cpp",
+        "./src/cpp/custom_object.cpp",
         "./src/cpp/index.cpp"
       ],
       "include_dirs": [
