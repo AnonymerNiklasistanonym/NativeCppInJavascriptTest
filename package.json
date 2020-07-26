@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node .",
     "install": "node-gyp rebuild",
-    "copyTypings": "node src/js/copy_typings.js"
+    "copyTypings": "node src/js/copy_typings.js",
+    "cppDocumentation": "doxygen Doxyfile"
   },
   "author": "",
   "license": "ISC",
